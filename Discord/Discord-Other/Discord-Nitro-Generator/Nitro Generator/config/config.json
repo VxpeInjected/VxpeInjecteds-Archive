@@ -1,0 +1,11 @@
+{
+    "proxies": "yourproxyname",
+    "thread": "200",
+
+    "webhook": {
+        "url": "https://discord.com/api/webhooks/12345",
+        "username": "You've got NITRO!!!!!",
+        "avatar": "https://avatarimagelinkhere."
+        "description": "<@youruserid> - YOU'VE WON NITRO! FOR FREE! CLAIM IT QUICK!!!!!!"
+    }
+}
