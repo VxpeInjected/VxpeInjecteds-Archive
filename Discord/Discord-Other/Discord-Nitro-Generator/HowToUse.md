@@ -16,7 +16,9 @@ Git lets you download (clone) this repository to your computer.
 git --version
 ```
 
-If you see a version number, Git is installed correctly. If not, try again.
+If you see a version number, Git is installed correctly. If not, reinstall Git.
+
+---
 
 ## 2. Install Python
 
@@ -29,12 +31,16 @@ This project requires **Python 3.9 or newer**.
 ```bash
 python --version
 ```
-or 
+
+or
+
 ```bash
 py --version
 ```
 
-If you see a version number, Git is installed correctly. If not, try again.
+If you see a version number, Python is installed correctly. If not, reinstall Python.
+
+---
 
 ## 3. Clone the Repository
 
@@ -42,21 +48,28 @@ If you see a version number, Git is installed correctly. If not, try again.
 - Run:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/VxpeInjected/VxpeInjecteds-Archive.git
 ```
 
-- Replace `<your-repo-url>` with the HTTPS link to your repository (example: `https://github.com/YourUsername/YourRepository.git`)
-- Navigate into the cloned folder:
+- Navigate into the Nitro Generator folder:
+
+**Windows:**
 
 ```bash
-cd YourRepository
+cd VxpeInjecteds-Archive\Discord\Discord-Other\Discord-Nitro-Generator\Nitro Generator
+```
+
+**Linux / Mac:**
+
+```bash
+cd VxpeInjecteds-Archive/Discord/Discord-Other/Discord-Nitro-Generator/Nitro\ Generator
 ```
 
 ---
 
 ## 4. Install Dependencies
 
-- Since there's a `requirements.txt` file, run this inside the folder it's in:
+- Run this inside the Nitro Generator folder:
 
 ```bash
 pip install -r requirements.txt
@@ -64,9 +77,9 @@ pip install -r requirements.txt
 
 ---
 
-## 5. Run the Bot
+## 5. Run the Generator
 
-- While inside the project folder, run:
+- While still inside the Nitro Generator folder, run:
 
 ```bash
 py main.py
